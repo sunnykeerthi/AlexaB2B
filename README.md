@@ -1,6 +1,6 @@
 # AlexaB2B
 
-## Alexa Setup
+## Setup
 
 ### AWS Console
 
