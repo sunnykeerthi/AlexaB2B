@@ -1,0 +1,168 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "ecommerce buddy",
+            "modelConfiguration": {
+                "fallbackIntentSensitivity": {
+                    "level": "LOW"
+                }
+            },
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "SuggestMeAMobIntent",
+                    "slots": [],
+                    "samples": [
+                        "need help to buy a phone",
+                        "help me buy a mobile",
+                        "Suggest me a mobile"
+                    ]
+                },
+                {
+                    "name": "freeFormTextIntent",
+                    "slots": [
+                        {
+                            "name": "freeFormTextSlot",
+                            "type": "phoneModelSlotVals"
+                        }
+                    ],
+                    "samples": [
+                        "{freeFormTextSlot}"
+                    ]
+                },
+                {
+                    "name": "ListMoreMobIntent",
+                    "slots": [],
+                    "samples": [
+                        "list more",
+                        "List more phones",
+                        "List phones",
+                        "List more models"
+                    ]
+                },
+                {
+                    "name": "OTPIntent",
+                    "slots": [
+                        {
+                            "name": "otp",
+                            "type": "AMAZON.FOUR_DIGIT_NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "{otp}",
+                        "it is {otp}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AddItemToCartIntent",
+                    "slots": [
+                        {
+                            "name": "custCart",
+                            "type": "phoneModelSlotVals"
+                        }
+                    ],
+                    "samples": [
+                        "add  {custCart} to my cart"
+                    ]
+                },
+                {
+                    "name": "checkout",
+                    "slots": [],
+                    "samples": [
+                        "proceed to checkout",
+                        "checkout"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "phoneModelSlotVals",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Mobiles"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Refrigerators"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Iphone eleven Pro"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "One plus seven T"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Galaxy S Nine"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Pixel four XL"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "P Thirty Pro"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Reno ten x"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "OnePlus seven Pro"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Honor View twenty"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Asus Zenfone six"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
